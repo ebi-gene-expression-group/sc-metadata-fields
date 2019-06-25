@@ -1,0 +1,60 @@
+MAGE-TAB Version	1.1					
+Investigation Title	Massively parallel single-cell RNA-sequencing of K14E7 transgenic and wildype C57BL/6 mice					
+Experiment Description	We report scRNA-seq data captured from 9,410 cells obtained from the skin of K14E7 transgenic and wildtype C57/BL6 mice. The K14E7 mouse model harbors the HPV16 E7 oncogene driven from a Keratin 14 promoter for keratinocyte-specific expression. We used scRNA-seq to detect and measure E7 transcription with unprecedented accuracy and resolution. With these data, we uncovered transcriptional differences between the individual cells; demonstrated that increased HPV16 E7 copy number is associated with increased expression of E7-induced genes; and showed that E7 expression is predominantly associated with basal keratinocytes.					
+						
+Experimental Design	strain or line design	genetic modification design				
+Experimental Design Term Source REF	EFO	EFO				
+Experimental Design Term Accession Number	EFO:0001754	EFO:0001758				
+						
+Experimental Factor Name	genotype					
+Experimental Factor Type	genotype					
+Experimental Factor Term Source REF	EFO					
+Experimental Factor Term Accession Number						
+						
+Person Last Name	Frazer	Lukowski				
+Person First Name	Ian	Samuel				
+Person Mid Initials						
+Person Email	i.frazer@uq.edu.au	s.lukowski@uq.edu.au				
+Person Phone						
+Person Fax						
+Person Affiliation	The University of Queensland Diamantina Institute, Translational Research Institute, Brisbane, Queensland, Australia, 4102	Division of Genomics of Disease and Development, Institute for Molecular Bioscience, The University of Queensland, Brisbane, Queensland, Australia, 4072				
+Person Address	37 Kent St, Woolloongabba QLD 4102	306 Carmody Rd The University of Queensland Brisbane, Queensland, Australia, 4072				
+Person Roles		submitter				
+Person Roles Term Source REF						
+Person Roles Term Accession Number						
+						
+Date of Experiment	2018-01-12					
+Public Release Date	2018-07-09					
+						
+PubMed ID	29964033					
+Publication DOI	10.1016/j.jid.2018.06.169					
+Publication Author List	S.W.Lukowski; Z.K.Tuong; K.Noske; A.Senabouth; Q.H.Nguyen; S.B.Andersen; H.P.Soyer; I.H.Frazer; J.E.Powell					
+Publication Title	Detection of HPV E7 transcription at single-cell resolution in epidermis					
+Publication Status	published					
+Publication Status Term Source REF						
+Publication Status Term Accession Number						
+						
+Protocol Name	P-MTAB-71357	P-MTAB-71358	P-MTAB-71355	P-MTAB-71356	P-MTAB-71353	P-MTAB-71354
+Protocol Type	normalization data transformation protocol	high throughput sequence alignment protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol	sample collection protocol	nucleic acid extraction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003816	EFO_0004917	EFO_0004184	EFO_0004170	EFO_0005518	EFO_0002944
+Protocol Description	scRNA-seq data was normalised to library size by the 10X Genomics cellranger software, and further cell-cell normalisation was performed using the Relative Log Expression method in the ascend package.	Sequences were mapped to a custom reference comprising the mm10 and HPV16 (NC_001526) genomes.	Library construction performed as per 10X Genomic Single Cell 3' RNA-seq protocol version 1.	single cell transcriptome libraries were pooled and sequenced on an Illumina NextSeq500, using a 150-cycle High Output reagent kit (NextSeq500/550 v2; Illumina, FC-404-2002) in standalone mode as follows: 98bp (Read 1), 14bp (I7 Index), 8bp (I5 Index), and 10bp (Read 2).	Ear skin from 10-12-week-old mice (n=2 per strain) was split into dorsal and ventral parts and incubated with 2.5 μg/μL Dispase II (Roche, Basel, Switzerland) for 1 h at 37°C. Epidermis and dermis were separated with closed forceps. The epidermis was further homogenized and digested with 1 μg/μL of collagenase D (Roche, Basel, Switzerland) and 0.2 μg/μL of DNase, (Roche, Basel, Switzerland) for 1 h at 37°C. Digested samples were passed through a 0.7 μm filter (BD Falcon, San Jose, USA) to generate a single cell suspension for staining and sorting. Single cell suspensions of digested epidermis samples were incubated with Fc Block (5 μg, rat anti-mouse CD19/CD32, clone 93, eBioscience) diluted in PBS for 30 min on ice. Samples were subsequently incubated with APC-conjugated rat anti-mouse CD45.2 antibodies (0.5 μg, Clone 104, Biolegend) diluted in PBS + 2% serum + 2 mM EDTA for 30 min on ice. Prior to sorting, cells were labelled with 7-AAD (0.25 μg, eBioscience). Live CD45- cells (7-AAD- and APC- or PE-Cy7-) were sorted using the BD ARIA Fusion sorter at 12 psi with a 100 μm nozzle. ~300,000-500,000 events/cells were collected per sample.	scRNA-seq was performed in duplicate for wild-type and K14E7 transgenic animals. The 10X Genomics Chromium instrument (10X Genomics) was used to partition viable CD45- cells with barcoded beads, and cDNA from each cell was prepared using the Single Cell 3' Library, Gel Bead and Multiplex Kit (v1; 10X Genomics; PN-120233) as per the manufacturer’s instructions.
+Protocol Parameters						
+Protocol Hardware				NextSeq 500		
+Protocol Software						
+Protocol Contact						
+						
+Term Source Name	EFO	ArrayExpress				
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/				
+Term Source Version	2.38					
+						
+SDRF File	E-MTAB-6429.sdrf.txt					
+Comment [Submitted Name]	Massively parallel single-cell RNA-sequencing of K14E7 transgenic and wildype C57BL/6 mice					
+Comment [SecondaryAccession]	ERP108912					
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR2592284-ERR2592287					
+Comment [AEExperimentType]	RNA-seq of coding RNA from single cells					
+Comment[ArrayExpressAccession]	E-MTAB-6429					
+Comment[EAExpectedClusters]	2					
+Comment[EAExperimentType]	differential					
+Comment[EAAdditionalAttributes]						
+Comment[EACurator]	Anja Fullgrabe					
