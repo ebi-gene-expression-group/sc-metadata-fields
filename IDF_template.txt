@@ -1,65 +1,65 @@
-MAGE-TAB Version
-Investigation Title
-Experiment Description
-
-Experimental Design
-Experimental Design Term Source REF
-Experimental Design Term Accession Number
-
-Experimental Factor Name
-Experimental Factor Type
-Experimental Factor Term Source REF
-Experimental Factor Term Accession Number
-
-Person Last Name
-Person First Name
-Person Mid Initials
-Person Email
-Person Phone
-Person Fax
-Person Affiliation
-Person Address
-Person Roles
-Person Roles Term Source REF
-Person Roles Term Accession Number
-
-Date of Experiment
-Public Release Date
-
-PubMed ID
-Publication DOI
-Publication Author List
-Publication Title
-Publication Status
-Publication Status Term Source REF
-Publication Status Term Accession Number
-
-Protocol Name
-Protocol Type
-Protocol Term Source REF
-Protocol Term Accession Number
-Protocol Description
-Protocol Parameters
-Protocol Hardware
-Protocol Software
-
-Term Source Name
-Term Source File
-Term Source Version
-
-SDRF File
-
-Comment[Submitted Name]
-Comment[SecondaryAccession]
-Comment[SequenceDataURI]
-Comment[AEExperimentType]
-Comment[ArrayExpressAccession]
-
-Comment[GEOReleaseDate]
-Comment[GEOLastUpdateDate]
-
-Comment[ExpressionAtlasAccession]
-Comment[EAAdditionalAttributes]
-Comment[EAExpectedClusters]
-Comment[EAExperimentType]
-Comment[EACurator]
+MAGE-TAB Version	1.1				
+Investigation Title					
+Experiment Description					
+					
+Experimental Design					
+Experimental Design Term Source REF					
+Experimental Design Term Accession Number					
+					
+Experimental Factor Name					
+Experimental Factor Type					
+Experimental Factor Term Source REF					
+Experimental Factor Term Accession Number					
+					
+Person Last Name					
+Person First Name					
+Person Mid Initials					
+Person Email					
+Person Phone					
+Person Fax					
+Person Affiliation					
+Person Address					
+Person Roles					
+Person Roles Term Source REF					
+Person Roles Term Accession Number					
+					
+Date of Experiment					
+Public Release Date					
+					
+PubMed ID					
+Publication DOI					
+Publication Author List					
+Publication Title					
+Publication Status					
+Publication Status Term Source REF					
+Publication Status Term Accession Number					
+					
+Protocol Name					
+Protocol Type	sample collection protocol	dissection protocol	single cell isolation protocol	single cell nucleic acid library construction protocol	single cell nucleic acid sequencing protocol
+Protocol Term Source REF	EFO	EFO			EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0005519			EFO_0008439
+Protocol Description					
+Protocol Parameters					
+Protocol Hardware					
+Protocol Software					
+					
+Term Source Name	EFO				
+Term Source File	https://www.ebi.ac.uk/efo/				
+Term Source Version					
+					
+SDRF File					
+					
+Comment[Submitted Name]					
+Comment[SecondaryAccession]					
+Comment[SequenceDataURI]					
+Comment[AEExperimentType]					
+Comment[ArrayExpressAccession]					
+					
+Comment[GEOReleaseDate]					
+Comment[GEOLastUpdateDate]					
+					
+Comment[ExpressionAtlasAccession]					
+Comment[EAAdditionalAttributes]					
+Comment[EAExpectedClusters]					
+Comment[EAExperimentType]					
+Comment[EACurator]					
