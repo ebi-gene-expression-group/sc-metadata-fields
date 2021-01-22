@@ -5,7 +5,7 @@ We have adapted the [MAGE-TAB v1.1 format](http://fged.org/projects/mage-tab/) t
 
 ### IDF
 
-The IDF (invesigation description format) contains fields describing the study, authors/submitters, protocols, publications. 
+The IDF (investigation description format) contains fields describing the study, authors/submitters, protocols, publications. 
 We have added further fields as comments used to for configuration of the processing (e.g. expected cluster numbers) and visualisation (e.g. to colour plots by metadata).<br>
 [List of IDF fields](IDF_template.txt)
 
